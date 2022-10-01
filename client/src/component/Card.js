@@ -16,7 +16,7 @@ function Card(props) {
 					/>
 					<p className="location--country">{props.location}</p>
 					<a href={props.link} className="location--link">
-						View On Google Map
+						View On WikiPedia
 					</a>
 				</div>
 
