@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+
+
+.mainImg {
+    width : 250px;
+    height : 250px;
+    border-radius: 12px;;
+}
+
+.location {
+    display : flex;
+    align-items: center;
+}
+
+.location--logo {
+    width : 15px;
+    height : 15px;
+    margin-right : 10px;
+}
+
+.location--country {
+    margin-right : 10px;
+}
+
+.location--link {
+    color : rgb(226, 214, 214);
+}
+
+.location--link:hover {
+  color: rgb(227, 48, 75);
+}
+
+.card {
+    display: flex;
+    margin : 10px;
+    align-items: center;
+}
+
+.card--data {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.card--info-city {
+    font-family: 'Karla', sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+.card--info-date {
+    margin-top : 30px;
+    font-weight : bold;
+}
+
+.card--info-text {
+    font-family: 'Poppins', sans-serif;
+    font-size : 14px;
+}
+
